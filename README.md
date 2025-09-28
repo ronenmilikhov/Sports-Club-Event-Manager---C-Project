@@ -1,6 +1,7 @@
 # Sports Club Event Manager (C)
 
-A menu-driven console app that manages athletes (“sportsmen”) and their competition events using plain-text files. It showcases dynamic memory management, structs, validation, and file I/O in C.
+A console program that manages athletes (“sportsmen”) and their competition events using plain-text files for storage. It loads initial data from SportsmanData.txt and EventData.txt, lets you add athletes, add events, list a player’s events, count how many players participated in a given event/year, detect duplicate events, show the “best” club by number of events, print a club’s events sorted, rename a club across all athletes, and delete events.
+Under the hood it demonstrates dynamic memory management, structs with nested dynamic arrays, robust user input validation, and file I/O in C.
 
 ## Features
 - **Load & save** data from `SportsmanData.txt` and `EventData.txt`
